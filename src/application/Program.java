@@ -40,6 +40,12 @@ public class Program {
 		seller.setName("Marth waine");
 		sellerDao.update(seller);
 		System.out.println("update");
+		
+		System.out.println("================================= 6 ");
+		sellerDao.deletById(35);
+		System.out.println("delete");
+
+
 	}
 
 }
